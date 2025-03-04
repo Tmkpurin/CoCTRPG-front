@@ -418,5 +418,5 @@ const submit = handleSubmit(async (values) => {
 <route lang="yaml">
 meta:
   login: true
-  title: '創建角色卡'
+  title: '創建角色'
 </route>
