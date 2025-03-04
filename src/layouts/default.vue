@@ -73,27 +73,21 @@ const router = useRouter()
 
 const langs = [
   {
-    text: '開始',
+    text: '遊戲系統',
     to: '/rulebook#start',
-    children: [
-      { text: 'AAAA', to: '/rulebook#start-aaaa' },
-      { text: 'BBBB', to: '/rulebook#start-bbbb' },
-    ],
+    children: [{ text: '桌上角色扮演遊戲', to: '/rulebook#start-aaaa' }],
   },
   {
-    text: '玩家',
+    text: '導言',
     to: '/rulebook#player',
     children: [
-      { text: 'CCCC', to: '/rulebook#player-cccc' },
-      { text: 'DDDD', to: '/rulebook#player-dddd' },
-    ],
-  },
-  {
-    text: '主持人',
-    to: '/rulebook#host',
-    children: [
-      { text: 'EEEE', to: '/rulebook#host-eeee' },
-      { text: 'FFFF', to: '/rulebook#host-ffff' },
+      { text: '何謂克蘇魯神話', to: '/rulebook#player-cccc' },
+      { text: '何謂TRPG', to: '/rulebook#player-dddd' },
+      { text: '遊玩的目的', to: '/rulebook#player-dddd' },
+      { text: '守秘人', to: '/rulebook#player-dddd' },
+      { text: '玩家', to: '/rulebook#player-dddd' },
+      { text: '玩家之間的合作', to: '/rulebook#player-dddd' },
+      { text: '遊戲的背景世界', to: '/rulebook#player-dddd' },
     ],
   },
 ]

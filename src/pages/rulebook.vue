@@ -29,7 +29,7 @@
     </v-list>
   </v-navigation-drawer>
 
-  <v-container width="20%">
+  <v-container width="90%">
     <h1>導言</h1>
     <v-card-title id="start">開始</v-card-title>
     <v-card>
