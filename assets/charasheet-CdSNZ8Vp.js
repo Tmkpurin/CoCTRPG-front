@@ -1,0 +1,1 @@
+import{ah as e,ab as t,a4 as r,a2 as o,a6 as s}from"./index-BIOJ7wy9.js";import{V as n}from"./VContainer-BzB05Dvr.js";const c={};function f(_,a){return o(),t(n,null,{default:r(()=>a[0]||(a[0]=[s("charasheet")])),_:1})}const d=e(c,[["render",f]]);export{d as default};
