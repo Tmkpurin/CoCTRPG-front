@@ -2,7 +2,7 @@
   <v-container width="800px" fluid>
     <v-row>
       <v-col cols="12">
-        <v-text-field v-model="search" prepend-inner-icon="mdi-magnify"></v-text-field>
+        <v-text-field v-model="search" prepend-inner-icon="mdi-magnify" hide-details></v-text-field>
       </v-col>
       <v-col v-for="charasheetsix in filteredCharas" :key="charasheetsix._id" cols="12">
         <list-card v-bind="charasheetsix"></list-card>
@@ -21,7 +21,7 @@ import ListCard from '@/components/ListCard.vue'
 
 const { apiAuth } = useAxios()
 
-const ITEMS_PER_PAGE = 10
+const ITEMS_PER_PAGE = 5
 const currentPage = ref(1)
 const charas = ref([])
 const search = ref('')

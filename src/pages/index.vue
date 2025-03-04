@@ -1,6 +1,7 @@
 <template>
   <v-container class="d-flex justify-center align-center full-height bg-image">
-    <div class="content">サイコロとアドリブが作る一度きりの物語「TRPG」</div>
+    <div class="content">在人類興起的遙遠以前，這片大地便已受舊日支配<br><br>
+      今時星辰再度歸位，沉眠許久的祂們即將重臨世間</div>
   </v-container>
 </template>
 
