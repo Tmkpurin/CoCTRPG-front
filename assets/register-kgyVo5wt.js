@@ -1,0 +1,1 @@
+import{ah as o,a1 as a,a2 as s,a3 as r,c as e,a4 as c}from"./index-7qtL3Bw3.js";import{V as n}from"./VMain-Xrubcd5p.js";import"./ssrBoot-BfrofRxT.js";const _={},i={class:"layout"};function d(f,l){const t=a("router-view");return s(),r("div",i,[e(n,{class:"content"},{default:c(()=>[e(t)]),_:1})])}const v=o(_,[["render",d],["__scopeId","data-v-701f40e5"]]);export{v as default};
