@@ -27,7 +27,7 @@
 
       <v-menu open-on-hover>
         <template #activator="{ props }">
-          <v-btn to="/aboutinvestigators" v-bind="props">關於調查員</v-btn>
+          <v-btn to="/aboutinvestigators" v-bind="props">數值一覽</v-btn>
         </template>
         <v-list>
           <template v-for="aboutinvestigator in aboutinvestigators" :key="aboutinvestigator.text">

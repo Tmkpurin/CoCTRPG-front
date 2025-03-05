@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer :width="300">
     <v-container class="menu">
-      <h1 class="mt-6">關於調查員</h1>
+      <h1 class="mt-6">數值一覽</h1>
       <v-list>
       <v-list-group value="能力值">
         <template #activator="{ props }">
